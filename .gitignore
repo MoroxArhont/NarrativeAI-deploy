@@ -1,3 +1,7 @@
 .env
 .env.*
 !.env.example
+
+# TLS certificates and private keys are provisioned directly on the server.
+certs/*
+!certs/README.md
